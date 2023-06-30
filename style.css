@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200;1,400;1,600&display=swap');
+
+* {
+    box-sizing : border-box ;
+    font-family : 'Arial Black' ; 
+}
+
+.logo{
+    width: auto;           
+    height: 70px;
+    border-radius: 50%;
+}
+
+.video{
+    position: absolute;
+    object-fit: cover;
+    top : 0%;
+    left : 0%;
+    width : 100%;
+    height : 200%
+}
+
+.topic{
+    font-family: "Old English Text MT";
+    font-size: 50px;
+    position: relative;
+    top : -40px;
+
+}
+
+header {
+    background : transparent ;
+    border : 2px solid rgba(225, 255, 255, .5) ;
+    border-radius: 20px ;
+    backdrop-filter: blur(50px) ;
+    box-shadow : 0 0 30px rgba(225, 255, 255, .5) ;
+    color: red;
+    position : fixed ;
+    top : 0 ;
+    left : 0 ;
+    width : 100% ;
+    height : 100px;
+    padding : 20px 100px;
+    display : flex ;
+    justify-content: space-between ;
+    z-index: 99 ;
+    border: red;
+}
+
+.navigation span {
+    color: red;
+    position : relative ;
+    font-size: 40px ;
+    font-weight : 500 ;
+    margin-left : 40px ;
+}
+
+.navigation span::after {
+    content : '' ;
+    position : absolute ;
+    left : 0 ;
+    bottom : -6px ;
+    width : 100% ;
+    height : 3px ;
+    background : red ;
+    border-radius : 5px ;
+    transform-origin : right ;
+    transform : scaleX(0) ;
+    transition : transform.5s ;
+}
+
+.navigation span:hover::after {
+    transform-origin: left ;
+    transform : scaleX(1) ;
+}
+
+.photo{
+    color : pink;
+    background : transparent ;
+    border : 2px solid rgba(225, 255, 255, .5) ;
+    border-radius: 20px ;
+    backdrop-filter: blur(5px) ;
+    box-shadow : 0 0 30px rgba(225, 255, 255, .5) ;
+    position : relative ;
+    top : 120px ;
+    left : 220px ;
+    width : 500px ;
+    height : 350px ;
+    border-radius : 40px ;
+    box-shadow: 10px 10px 10px pink;
+}
+
+.photo img{
+    position : relative ;
+    top : 20px ;
+    width : 200px ;
+    height :200px ;
+    left : 150px ;
+    border-radius : 50px ;
+}
+
+.photo .contact h2{
+    font-size: 25px ;
+    position: relative ;
+    left : 20px ;
+    top : 30px ;
+}
+
+.photo .basic span{
+    font-size: 20px ;
+    position :relative ;
+    top : 25px ;
+    left : 40px ;
+}
+
+.contact{
+    color : pink;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    top : 150px;
+    left : 220px;
+    border-radius: 40px;
+    background : transparent ;
+    border : 2px solid rgba(225, 255, 255, .5) ;
+    border-radius: 20px ;
+    backdrop-filter: blur(5px) ;
+    box-shadow : 0 0 30px rgba(225, 255, 255, .5) ;
+    box-shadow: 10px 10px 10px pink;
+}
+
+.contact h2{
+    position: relative;
+    top : 20px;
+    left : 20px;
+}
+
+.contact span{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    left : 40px;
+}
+
+.skill{
+    color : pink;
+    background : transparent ;
+    border : 2px solid rgba(225, 255, 255, .5) ;
+    border-radius: 20px ;
+    backdrop-filter: blur(5px) ;
+    box-shadow : 0 0 30px rgba(225, 255, 255, .5) ;
+    position : relative ;
+    top : 180px ;
+    left : 220px ;
+    width : 500px ;
+    height : 500px ;
+    border-radius : 40px ;
+    box-shadow: 10px 10px 10px pink;
+}
+
+.skill h2{
+    position: relative;
+    top : 20px;
+    left :20px;
+    font-size: 25px;
+    /* font-family: "Algerian"; */
+}
+
+
+
+.pressure{
+    width : 100px;
+    height : 100px;
+    position: relative;
+    top : 30px;
+    left : 70px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.pressure .in{
+    width : 90px;
+    height : 90px;
+    position: relative;
+    top: 5px;
+    left : 5px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.pressure .out{
+    width : 80px;
+    height : 80px;
+    position: relative;
+    top: 5px;
+    left : 5px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.pressure h2{
+    color : black;
+    position: relative;
+    top:20px;
+    left:18px;
+}
+
+.first{
+    position: relative;
+    top:40px;
+    left:45px;
+}
+
+.communication{
+    width : 100px;
+    height : 100px;
+    position: relative;
+    top: -130px;
+    left : 320px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.communication .in{
+    width : 90px;
+    height : 90px;
+    position: relative;
+    top: 5px;
+    left : 5px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.communication .out{
+    width : 80px;
+    height : 80px;
+    position: relative;
+    top: 5px;
+    left : 5px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.communication h2{
+    color : black;
+    position: relative;
+    top:20px;
+    left:18px;
+}
+
+.second{
+    position : relative ;
+    top: -120px;
+    left: 300px;
+}
+
+.leadership{
+    width : 100px;
+    height : 100px;
+    position: relative;
+    top: -70px;
+    left : 320px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.leadership .in{
+    width : 90px;
+    height : 90px;
+    position: relative;
+    top: 5px;
+    left : 5px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.leadership .out{
+    width : 80px;
+    height : 80px;
+    position: relative;
+    top: 5px;
+    left : 5px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.leadership h2{
+    color : black;
+    position: relative;
+    top:20px;
+    left:18px;
+}
+
+.third{
+    position: relative;
+    top: -60px;
+    left : 320px;
+}
+
+.problem{
+    width : 100px;
+    height : 100px;
+    position: relative;
+    top: -230px;
+    left : 70px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.problem .in{
+    width : 90px;
+    height : 90px;
+    position: relative;
+    top: 5px;
+    left : 5px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.problem .out{
+    width : 80px;
+    height : 80px;
+    position: relative;
+    top: 5px;
+    left : 5px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.problem h2{
+    color : black;
+    position: relative;
+    top:20px;
+    left:18px;
+}
+
+.fourth{
+    position: relative;
+    top: -220px;
+    left : 50px;
+}
+
+.photo .name h1{
+    color : pink;
+    position: relative;
+    top : 20px;
+    left : 20px ;
+}
+
+.photo .name h3{
+    color : pink;
+    position: relative;
+    left : 20px ;
+}
+
+.program{
+    color : pink;
+    width : 500px ;
+    height : 400px;
+    position : relative;
+    top : -930px;
+    left : 800px;
+    background : transparent ;
+    border : 2px solid rgba(225, 255, 255, .5) ;
+    border-radius: 20px ;
+    backdrop-filter: blur(5px) ;
+    box-shadow : 0 0 30px rgba(225, 255, 255, .5) ;
+    border-radius : 40px ;
+    box-shadow: 10px 10px 10px pink;
+}
+
+.program h2{
+    position: relative;
+    top : 20px ;
+    left : 20px;
+}
+
+.program span{
+    color : pink;
+    font-size: 20px;
+    position: relative;
+    top : 20px;
+    left : 25px;
+}
+
+.certification{
+    color : pink;
+    width : 500px;
+    height : 300px;
+    position: relative;
+    top : -900px;
+    left : 800px;
+    background : transparent ;
+    border : 2px solid rgba(225, 255, 255, .5) ;
+    border-radius: 20px ;
+    backdrop-filter: blur(5px) ;
+    box-shadow : 0 0 30px rgba(225, 255, 255, .5) ;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px pink;
+}
+
+.certification h2{
+    position: relative;
+    left : 20px;
+}
+
+.certification p{
+    font-size: 18px;
+    position: relative;
+    left : 25px ;
+}
+
+.project{
+    color : pink;
+    width : 500px;
+    height : 347px;
+    position: relative;
+    top : -870px;
+    left : 800px;
+    background : transparent ;
+    border : 2px solid rgba(225, 255, 255, .5) ;
+    border-radius: 20px ;
+    backdrop-filter: blur(5px) ;
+    box-shadow : 0 0 30px rgba(225, 255, 255, .5) ;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px pink;
+}
+
+.project h2{
+    position: relative;
+    left : 20px;
+}
+
+.project p{
+    font-size: 18px;
+    position: relative ;
+    left : 25px
+}
